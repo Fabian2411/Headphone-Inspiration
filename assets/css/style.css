@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "work1";
+    src: url(../font/WorkSans-Black.ttf);
+}
+@font-face {
+    font-family: "work2";
+    src: url(../font/WorkSans-BlackItalic.ttf);
+}
+@font-face {
+    font-family: "work3";
+    src: url(../font/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "work4";
+    src: url(../font/WorkSans-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "work5";
+    src: url(../font/WorkSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "work6";
+    src: url(../font/WorkSans-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: "work7";
+    src: url(../font/WorkSans-ExtraLight.ttf);
+}
+@font-face {
+    font-family: "work8";
+    src: url(../font/WorkSans-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: "work9";
+    src: url(../font/WorkSans-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "work10";
+    src: url(../font/WorkSans-Italic.ttf);
+}
+@font-face {
+    font-family: "work11";
+    src: url(../font/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "work12";
+    src: url(../font/WorkSans-LightItalic.ttf);
+}
+@font-face {
+    font-family: "work13";
+    src: url(../font/WorkSans-Medium.ttf);
+}
+@font-face {
+    font-family: "work14";
+    src: url(../font/WorkSans-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "work15";
+    src: url(../font/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "work16";
+    src: url(../font/WorkSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "work17";
+    src: url(../font/WorkSans-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: "work18";
+    src: url(../font/WorkSans-Thin.ttf);
+}
+@font-face {
+    font-family: "work19";
+    src: url(../font/WorkSans-ThinItalic.ttf);
+}
+@font-face {
+    font-family: "work20";
+    src: url(../font/WorkSans-VariableFont_wght.ttf);
+}
+
+/*<!------------- global ------------->*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    /*Grundbefehl, um bei allen Elementen die default Einstellungen zu deaktivieren*/
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ebccc2;
+}
+
+html{
+    font-family: "work15";
+}
+
+/*<!------------- Navigation links ------------->*/
+.navLinksAboutInspiration{
+    position: absolute;
+    height: 30vh;
+    width: 10vw;
+    background-color:aqua;
+}
+
+
+
+
+
+
+h3{
+    font-size: 2.5em;
+}
+
+/*<!------------- Navigation oben ------------->*/
+#navigationOben{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 2%;
+}
+
+#navigationOben li:nth-of-type(1){
+    margin-left: 4%;
+    margin-right: 52%;
+}
+
+#navigationOben li:nth-of-type(2){
+    margin-right: 4%;
+}
+
+#navigationOben li:nth-of-type(3){
+    margin-right: 1%;
+}
+
+#navigationOben li:nth-of-type(4){
+    margin-right: 1%;
+}
+
+#navigationOben li:nth-of-type(5){
+    margin-right: 4%;
+}
+
+
+/*<!------------- global Ende------------->*/
+
+
+/*<!------------- Content ------------->*/
+
+/*<!------------- Go beyond music ------------->*/
+.goBeyondMusic{
+    border: 1px solid;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 27%;
+    margin-bottom: 9%;
+}
+
+
+/*<!------------- background-image ------------->*/
+/* section{
+    background-image: url(../img/section-about-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 28%;
+    background-size: 91% 40%;
+} */
+/* background-image doch in einem leeren div positioniert, einfachere Positionierung der vorigen und folgenden Elemente!?*/
+
+.backgroundImage{
+    height: 113vh;
+    background-image: url(../img/section-about-1.jpg);
+    background-position: center;
+    /* background-size: 91% 40%; */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/*<!------------- BS1_NYC_Home &  Design Alchemy ------------->*/
+.nycUndDesignAlchemy{
+    margin-top: 7%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* lieber mit margin positionieren */
+
+}
+
+.nycUndDesignAlchemy img{
+    width: 20%;
+}
+
+.nycUndDesignAlchemy div{
+    width: 30%;
+}
